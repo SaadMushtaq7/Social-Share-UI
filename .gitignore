@@ -7,8 +7,8 @@
 /.pnp
 .pnp.js
 /firebase.tsx
-/.firebaserc
-/.firebase.json
+.firebaserc
+/firebase.json
 # testing
 /coverage
 
