@@ -36,7 +36,7 @@ const SlackShareDialog: FC<Props> = ({
   const handleSlackShare = async () => {
     setShareLoader(true);
     await axios
-      .get("http://localhost:8080/getFile", {
+      .get("https://feedback-social-share.herokuapp.com/getFile", {
         params: {
           fileUrl: selectedFile,
           isVideo,
